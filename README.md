@@ -15,23 +15,21 @@ Maju Bersama merupakan sebuah platform yang menyediakan berbagai info lomba, bea
 Seiring dengan banyaknya jumlah pencarian info lomba dan juga beasiswa oleh siswa dan mahasiswa, hal tersebut ternyata berbanding terbalik dengan peningkatan kejelasan dan juga kepastian informasi yang tersebar khususnya di Indonesia. Sehingga menyebabkan penyebaran informasi tentang lomba, beasiswa hingga event" tertentu menjadi kurang terlihat. Maka, dibutuhkan sebuah aplikasi yang dapat memuat berbagai macam informasi terkait lomba hingga beasiswa, yang dimana dapat mencari jenis lomba dan beasiswa yang mereka minati dengan mudah dan cepat.
 
 ## Fitur yang dimiliki?
-* Membuat to-do list dengan properti
-    * Nama tugas
-    * Kelompok tugas (berfungsi untuk mengelompokan tugas)
-    * **Prioritas**
-    * Deadline (informasi tentang waktu tersisa)
-* Mengedit properti to-do list
-* Menghapus to-do list
-* Melihat to-do list dengan beberapa cara
-    * Melihat semua to-do list
-    * Mencari to-do list
-    * Mengurutkan sesuai dengan :
-        * Kelompok tugas
-        * Prioritas
-        * Siswa waktu
-* Penyimpanan to-do list agar data pengguna tidak hilang saat program dihentikan
-
-
+* Melakukan Login
+* Melakukan Registrasi
+* Membuat data lomba dan beasiswa
+* Mengubah data lomba dan beasiswa
+* Menghapus data lomba dan beasiswa
+* menghitung jumlah data lomba dan beasiswa yang ditambahkan
+* Mencari data lomba berdasarkan
+    * Keyword dari lomba
+    * Kategori lomba
+    * Tanggal lomba
+    * Biaya lomba
+* Mencari data beasiswa berdasarkan
+    * Keyword dari beasiswa
+    * Kategori beasiswa
+    * Tanggal beasiswa
 
  ## Contributor
   * Ivan Luis Simarmata
