@@ -1,9 +1,11 @@
-Final Project
 <br>
 <h1 align="center">Final Project Program</h1>
 <img src="src/card.png" alt="Program Card">
-<h1 align="center">To-do List Program</h1>
-<p align="center"> Program yang berguna membantu user untuk memanajemen pekerjaan</p>
+<h1 align="center">Maju Bersama</h1>
+<p align="center">Hadir untuk membantu mahasiswa ataupun siswa 
+untuk mempermudah dalam pencarian informasi lomba, webinar
+beasiswa hingga event - event lainnya.
+ </p>
 <br>
 
 ## Program apa ini?
