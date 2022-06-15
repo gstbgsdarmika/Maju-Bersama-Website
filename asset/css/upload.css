@@ -1,0 +1,62 @@
+:root {
+    --hitam: #1b1f22;
+    --putih: #fff;
+    --biru: #01358d;
+    --birutipis: #b0cbf8;
+    --orange: #ff8400;
+    --card: #f7fbff;
+    --hijau: #218838;
+    --hijautipis: #e1fcf3;
+    --abuabu: #f4f4f5;
+    --fontas: #737373;
+    --garis: #CFCDCD;
+}
+
+.drag-area{
+    border: 2px dashed var(--garis);
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area.active{
+    border: 2px solid var(--orange);
+}
+
+.drag-area .icon{
+    font-size: 100px;
+    color: var(--garis);
+}
+
+.drag-area h2{
+    font-size: 20px !important;
+    font-weight: 500;
+    color: var(--hitam);
+  }
+  .drag-area span{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--hitam);
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: var(--orange);
+    color: var(--putih) !important;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

@@ -1,0 +1,869 @@
+:root {
+  --hitam: #1b1f22;
+  --putih: #ffff;
+  --biru: #01358d;
+  --birutipis: #b0cbf8;
+  --orange: #ff8400;
+  --card: #f7fbff;
+  --hijau: #218838;
+  --hijautipis: #e1fcf3;
+  --abuabu: #f4f4f5;
+  --fontas: #737373;
+}
+
+body {
+  background-color: var(--putih) !important;
+  font-family: "Poppins", sans-serif;
+  color: var(--putih);
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.color-acsent {
+  color: var(--orange);
+}
+
+.color-acsent2 {
+  color: var(--biru);
+}
+
+/* Nabvar */
+.active {
+  color: var(--putih) !important;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* nav-color */
+.scroll-navbar {
+  background-color: var(--biru);
+  z-index: 100;
+  transition: 0.8s;
+}
+
+.nav-link {
+  color: var(--putih) !important;
+}
+.navbar-brand {
+  font-size: 20px;
+  color: var(--putih) !important;
+}
+
+/* akhir nabvar */
+
+/* Hero */
+#hero {
+  min-height: 100vh;
+  padding-top: 200px;
+  background-image: url(image/texture.png);
+  background-color: var(--biru);
+}
+
+#hero img {
+  filter: drop-shadow(13px 20px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+#hero h1 {
+  font-size: 48px;
+}
+
+.gelombang {
+  padding-top: 40px;
+}
+.color-acsent {
+  color: var(--orange);
+}
+
+.btn-custom2 {
+  background-color: var(--hijau);
+  text-align: center;
+  color: var(--putih);
+  min-width: 146px;
+  min-height: 40px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.btn-custom2:hover {
+  box-shadow: 1px 1px 1px var(--hijautipis);
+}
+/* Hero */
+
+/* Tentang */
+#tentang {
+  padding: 100px 0;
+  background-color: var(--putih) !important;
+  color: var(--hitam);
+}
+
+#tentang h2 {
+  font-size: 48px;
+}
+
+.color-acsent2 {
+  color: var(--biru);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: var(--hitam);
+}
+
+.card-tentang {
+  width: 100%;
+  height: 313px;
+  margin-top: 88px;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card-tentang h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  color: var(--hitam);
+}
+
+.card-tentang p {
+  font-size: 14px;
+  color: var(--hitam);
+  margin-bottom: 54px;
+}
+
+.icon-tentang {
+  width: 112px;
+  height: 112px;
+}
+
+.lingkaran {
+  position: absolute;
+  margin-top: -14rem;
+}
+
+/* Lomba */
+#lomba {
+  padding: 100px 0;
+  background-color: var(--abuabu);
+  background-image: url(../image/texture.png);
+  color: var(--hitam) !important;
+}
+
+#lomba h2 {
+  font-size: 48px;
+}
+
+.poster-lomba {
+  width: 100%;
+  height: 372.15px;
+}
+
+.card-lomba {
+  width: 100%;
+  margin-top: 26px;
+  border-radius: 5px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  color: var(--hitam);
+}
+
+.btn-custom1 {
+  margin-top: 90px;
+  background-color: var(--orange);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-custom1:hover {
+  box-shadow: 1px 1px 1px var(--orange);
+}
+
+.btn-custom3 {
+  margin-top: 90px;
+  background-color: var(--biru);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-custom3:hover {
+  box-shadow: 1px 1px 1px var(--birutipis);
+}
+
+.lingkaran2 {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: -15px;
+}
+/* Akhir Lomba */
+
+/* Lomba */
+#lomba {
+  padding: 100px 0;
+  background-color: var(--abuabu);
+  background-image: url(../image/texture.png);
+  color: var(--hitam) !important;
+}
+
+#lomba h2 {
+  font-size: 48px;
+}
+
+.poster-lomba {
+  width: 100%;
+  height: 372.15px;
+}
+
+.card-lomba {
+  width: 100%;
+  margin-top: 26px;
+  border-radius: 5px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  color: var(--hitam);
+}
+
+.btn-custom1 {
+  margin-top: 90px;
+  background-color: var(--orange);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-custom1:hover {
+  box-shadow: 1px 1px 1px var(--orange);
+}
+
+.btn-custom3 {
+  margin-top: 90px;
+  background-color: var(--biru);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-custom3:hover {
+  box-shadow: 1px 1px 1px var(--birutipis);
+}
+
+.lingkaran2 {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: -15px;
+}
+/* Akhir Lomba */
+
+/* beasiswa */
+#beasiswa {
+  padding: 100px 0;
+  background-color: var(--abuabu);
+  background-image: url(../image/texture.png);
+  color: var(--hitam) !important;
+}
+
+#beasiswa h2 {
+  font-size: 48px;
+}
+
+.poster-beasiswa {
+  width: 100%;
+  height: 372.15px;
+}
+
+.card-beasiswa {
+  width: 100%;
+  margin-top: 26px;
+  border-radius: 5px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  color: var(--hitam);
+}
+
+.btn-custom1 {
+  margin-top: 90px;
+  background-color: var(--orange);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-custom1:hover {
+  box-shadow: 1px 1px 1px var(--orange);
+}
+
+.btn-custom3 {
+  margin-top: 90px;
+  background-color: var(--biru);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-custom3:hover {
+  box-shadow: 1px 1px 1px var(--birutipis);
+}
+
+.lingkaran2 {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: -15px;
+}
+/* Akhir beasiswa */
+
+/* Pertanyaan */
+#bantuan {
+  padding: 100px 0;
+}
+
+#bantuan h2 {
+  font-size: 48px;
+}
+.accordion-button {
+  background-color: var(--birutipis);
+  border-radius: 5px;
+  border: none;
+}
+.accordion {
+  border: none;
+}
+
+.accordion-item {
+  background-color: var(--card);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.accordion-collapse {
+  border: none;
+}
+.accordion-body {
+  border: none;
+}
+.card-bantuan {
+  width: 100%;
+  margin-top: 100px;
+  border: none;
+  color: var(--hitam);
+}
+
+/* Akhir Pertanyaan*/
+
+#tentang h2 {
+  font-size: 48px;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: var(--hitam);
+}
+
+.card-tentang {
+  width: 100%;
+  height: 313px;
+  margin-top: 88px;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card-tentang h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  color: var(--hitam);
+}
+
+.card-tentang p {
+  font-size: 14px;
+  color: var(--hitam);
+  margin-bottom: 54px;
+}
+
+.icon-tentang {
+  width: 112px;
+  height: 112px;
+}
+
+.lingkaran {
+  position: absolute;
+  margin-top: -14rem;
+}
+/* Akhir Tentang */
+
+/* Tim */
+#tim {
+  min-height: 150px;
+  padding-top: 200px;
+}
+
+#tim h2 {
+  font-size: 48px;
+}
+
+.card-tim {
+  width: 100%;
+  height: 314px;
+  border-radius: 10px;
+  background-color: var(--card);
+  padding: 60px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-card-tim {
+  margin-top: -20px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: var(--biru);
+}
+
+.image-card-tim img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name-profession {
+  margin-top: 40px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--hitam);
+}
+
+.swiper-pagination {
+  position: absolute;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
+/* Akhir Tim */
+
+/* kontak */
+#kontak {
+  min-height: 150px;
+  padding-top: 200px;
+}
+
+#kontak h2 {
+  font-size: 48px;
+}
+
+.btn-custom4 {
+  margin-top: 130px;
+  margin-bottom: 112px;
+  background-color: var(--hijau);
+  text-align: center;
+  color: var(--putih);
+  min-width: 237px;
+  min-height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btn-custom4:hover {
+  box-shadow: 1px 1px 1px var(--birutipis);
+}
+
+.latar3 {
+  z-index: -999;
+  margin-top: -200px;
+}
+/* Akhir kontak */
+
+/* footer */
+footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: var(--biru);
+  background-image: url(image/texture.png);
+}
+footer h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sosial-icon a {
+  margin-right: -15px;
+}
+
+.foot img {
+  margin-top: -20px;
+  margin-right: 20px;
+}
+
+.foot p {
+  font-size: 14px;
+  color: var(--putih);
+  margin-top: 20px;
+}
+
+.kolom2 {
+  padding-left: 150px;
+}
+
+.kolom2 ul {
+  list-style: none;
+  padding-left: 0;
+  color: var(--putih);
+}
+
+.kolom2 a {
+  font-size: 18px;
+  color: var(--putih);
+}
+
+.kolom3 {
+  padding-right: 10px;
+}
+
+.kolom3 ul {
+  list-style: none;
+  padding-left: 0;
+  color: var(--putih);
+}
+
+.kolom3 a {
+  font-size: 18px;
+  color: var(--putih);
+}
+
+.nama-logo {
+  font-size: 48px;
+  font-weight: 600;
+}
+/* akhir footer */
+
+/* login */
+#login {
+  height: 100vh;
+  color: var(--hitam) !important;
+  overflow-x: hidden;
+}
+
+.card-login {
+  width: 100%;
+  height: 600px;
+  margin-top: 26px;
+  border-radius: 5px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  color: var(--hitam) !important;
+}
+
+.content-login {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+.title-login {
+  margin: 26px 56px 0 56px;
+}
+
+.title-login h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.title-login p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--fontas);
+  margin-top: -6px;
+  margin-bottom: 22px;
+}
+
+.login-form {
+  margin: 20px 56px 0 56px;
+}
+
+.login-form label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.login-form input {
+  background: var(--putih);
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+}
+
+.login-form a {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--fontas);
+  margin: 20px 0;
+  display: block;
+}
+
+.login-form .signin {
+  width: 100%;
+  height: 42px;
+  background: var(--orange);
+  color: var(--putih);
+  border-radius: 8px;
+  border: none;
+}
+
+.login-form .signin-google {
+  width: 100%;
+  height: 42px;
+  background: var(--putih);
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  margin: 10px 0 20px 0;
+}
+
+.login-form span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--fontas);
+}
+
+.login-form span a {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.img-login {
+  width: 100%;
+  height: 435px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+}
+/* Akhir login */
+
+/* Register */
+#register {
+  height: 100vh;
+  color: var(--hitam) !important;
+  overflow-x: hidden;
+}
+
+.form-registrasi li {
+  list-style: none;
+}
+
+.card-register {
+  width: 100%;
+  height: 700px;
+  margin-top: 26px;
+  border-radius: 5px;
+  background-color: var(--card);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.content-register {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+.title-register {
+  margin: 26px 56px 0 56px;
+}
+
+.title-register h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.title-register p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--fontas);
+  margin-top: -6px;
+  margin-bottom: 22px;
+}
+
+.register-form {
+  margin: 20px 56px 0 56px;
+}
+
+.register-form label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.register-form input {
+  background: var(--putih);
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+}
+
+.register-form a {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--fontas);
+  margin: 20px 0;
+  display: block;
+}
+
+.register-form .daftar {
+  width: 100%;
+  height: 42px;
+  background: var(--orange);
+  color: var(--putih);
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+.register-form .signin-google {
+  width: 100%;
+  height: 42px;
+  background: var(--putih);
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  margin: 10px 0 0 0;
+}
+
+.register-form span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--fontas);
+}
+
+.register-form span a {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.img-register {
+  width: 100%;
+  height: 435px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+}
+
+.register-left {
+  padding-top: 50px;
+}
+
+.register-left p {
+  font-size: 16px;
+  color: var(--fontas);
+  margin-top: 20px;
+}
+/* Akhir Register */
+
+/* Tambah lomba */
+#tambahlomba {
+  padding-top: 50px;
+  color: var(--hitam);
+}
+#tambahlomba h2 {
+  font-size: 48px;
+}
+
+.upload-poster {
+  height: 50px;
+}
+
+/* Akhir Tambah lomba */
+
+/* ubah lomba */
+#ubahlomba {
+  padding-top: 50px;
+  color: var(--hitam);
+}
+#ubahlomba h2 {
+  font-size: 48px;
+}
+.upload-poster {
+  height: 50px;
+}
+
+img .gambar_lomba{
+  width: 100%;
+  height: 435px;
+}
+
+/* Akhir ubah lomba */
+
+/* Cari Lomba */
+#carilomba {
+  padding-top: 80px;
+  color: var(--hitam);
+}
+#carilomba h2 {
+  font-size: 48px;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.btn-custom6 {
+  background-color: var(--orange);
+  text-align: center;
+  color: var(--putih);
+  min-width: 146px;
+  min-height: 40px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.btn-custom6:hover {
+  box-shadow: 1px 1px 1px var(--orange2);
+}
+/* Akhir Cari Lomba */

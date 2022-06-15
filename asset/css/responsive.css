@@ -1,0 +1,55 @@
+/* Desktop */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .active::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ff8400;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ff8400;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 350px) {
+  #hero {
+    padding-top: 100px;
+  }
+
+  #hero img {
+    width: 75%;
+    height: auto;
+  }
+
+  #hero h1 {
+    font-size: 18px;
+  }
+
+  #hero p {
+    font-size: 12px;
+  }
+
+  .btn-custom2 {
+    font-size: 12px;
+    width: 30%;
+    height: auto;
+  }
+}
