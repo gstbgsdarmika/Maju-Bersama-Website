@@ -32,9 +32,9 @@ Seiring dengan banyaknya jumlah pencarian info lomba dan juga beasiswa oleh sisw
     * Tanggal beasiswa
 
  ## Contributor
-  * Ivan Luis Simarmata
+  * Andien Rachma Fadillah 
   * Komang Kartika Noviyanti
-  * I Gst Ayu Purnami Pinatih
+  * I Gusti Ayu Purnami Pinatih
   * Alvin Wiraprathama
   * I Gusti Bgs Darmika Putra
   * I Putu Agus Arya Wiguna
