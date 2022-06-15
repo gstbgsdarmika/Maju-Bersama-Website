@@ -143,6 +143,11 @@ function urut(){
             return query($query);
 }
 
+function urutBeasiswa(){
+    $query = "SELECT * FROM beasiswa ORDER BY judul_beasiswa ASC";
+            return query($query);
+}
+
 
 function cariBiaya($biaya){
     $query = "SELECT * FROM lomba HAVING biaya_lomba < ($biaya + 1);";
