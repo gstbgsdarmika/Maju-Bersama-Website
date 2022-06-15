@@ -1,7 +1,16 @@
 <?php
 require 'functionsLomba.php';
+
 $lomba = query("SELECT * FROM lomba");
 $beasiswa = query("SELECT * FROM beasiswa");
+
+if(isset($_POST["urut"]) ) {
+    $lomba = urut($_POST);
+    }
+
+    if(isset($_POST["urutBeasiswa"]) ) {
+        $beasiswa = urutBeasiswa($_POST);
+        }
 ?>
 
 <!doctype html>
@@ -151,6 +160,9 @@ $beasiswa = query("SELECT * FROM beasiswa");
                 </div>
             </div>
             <div class="row">
+            <form action="" method="POST">
+                <button class="btn btn-custom1" type="submit" name="urut" id="tombol-urutkan">Urutkan Data Lomba</button>
+            </form>
         <?php $i = 1; ?>
 			<?php foreach($lomba as $row) : ?>
                 <div class="col-lg-12">
@@ -236,6 +248,9 @@ $beasiswa = query("SELECT * FROM beasiswa");
                 </div>
             </div>
             <div class="row">
+            <form action="" method="POST">
+                <button class="btn btn-custom1" type="submit" name="urutBeasiswa" id="tombol-urutkanBeasiswa">Urutkan Data Beasiswa</button>
+            </form>
         <?php $i = 1; ?>
 			<?php foreach($beasiswa as $row) : ?>
                 <div class="col-lg-12">

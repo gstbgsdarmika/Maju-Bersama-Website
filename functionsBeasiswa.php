@@ -133,10 +133,6 @@ function cari($keyword) {
 }
 
 
-function urut(){
-    $query = "SELECT * FROM beasiswa ORDER BY judul_beasiswa ASC";
-            return query($query);
-}
 
 
 function total(){
